@@ -1,3 +1,8 @@
 package org.five.ticket.entity;
 
-public class ticketEntity {}
+public class ticketEntity {
+    private Integer id;
+    private String uuid;
+
+
+}
