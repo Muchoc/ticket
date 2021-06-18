@@ -1,2 +1,9 @@
 server:
   port: 2020
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    check-template-location: true  #check-tempate-location: 检查模板路径是否存在
+    cache: false
+    suffix: .html
+    mode: HTML5
