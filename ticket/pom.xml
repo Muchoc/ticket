@@ -29,6 +29,11 @@
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
       <version>2.4.1</version>
     </dependency>
+    <dependency>
+      <groupId>io.github.mouzt</groupId>
+      <artifactId>bizlog-sdk</artifactId>
+      <version>1.0.4</version>
+    </dependency>
   </dependencies>
 
 </project>

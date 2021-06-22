@@ -11,15 +11,6 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 public class TicketMain {
 
-    @Bean
-    public ConcurrentHashMap<String, DisplayEntity> movieMap()
-    {
-        ConcurrentHashMap<String, DisplayEntity> movieMap = new ConcurrentHashMap<>();
-        MovieDisplay movieDisplay = new MovieDisplay();
-
-        return movieMap;
-
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(TicketMain.class, args);
